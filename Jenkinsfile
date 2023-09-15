@@ -6,6 +6,6 @@ node('slave')
   } 
   stage('ContinuousBuild') 
   {
-    sh 'echo "HELLO"'
+    sh 'echo "HELLO Ranganath"'
   } 
 }
