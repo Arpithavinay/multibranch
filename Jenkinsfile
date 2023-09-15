@@ -1,8 +1,8 @@
 node('slave') 
 {
-  stage('Continuou sDownload') 
+  stage('Continuous Download') 
   {
-    git 'https://github.com/keshavr21/maven_test.git'
+    git branch: 'main', changelog: false, poll: false, url: 'https://github.com/jaiswaladi246/Shopping-Cart.git'
   } 
   stage('ContinuousBuild') 
   {
