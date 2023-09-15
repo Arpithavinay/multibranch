@@ -1,4 +1,4 @@
-node('LINUX') 
+node('slave') 
 {
   stage('Continuou sDownload') 
   {
